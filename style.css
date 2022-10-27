@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+.jumbotron {
+	background: linear-gradient(rgba(52, 171, 235,0.6), rgba(52, 171, 235,0.6)), 
+	url(https://i.ytimg.com/vi/co-phhoeRBY/maxresdefault.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+}
+.jumbotron .container {
+	color: white;
+	font-weight: bold;
+	font-family: 'bariol';
+	font-size: 40px;
+}
+.collapse .btn-primary {
+	border-radius: 50px;
+	margin: 0 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.container .btn-dark {
+	border-radius: 50px;
+	margin: 0 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.card {
+	position: relative;
+	margin: 0 30px;
+	text-align: justify;
+	line-height: 20px;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+.card .icon {
+	position: absolute;
+	left: -1px;
+	right: 0;
+	padding-left: 10px;
+}
